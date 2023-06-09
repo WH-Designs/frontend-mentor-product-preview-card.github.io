@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&family=Outfit&display=swap" rel="stylesheet">  
+
+  <script src="https://kit.fontawesome.com/27c02e2cfc.js" crossorigin="anonymous"></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body class="bg-yellow-100">
+ 
+    <div class="flex flex-col md:flex-row rounded-xl justify-center bg-white m-12">
+      <div class="flex bg-[url('assets\images\image-product-mobile.jpg')] md:bg-[url('assets\images\image-product-mobile.jpg')] w-fit h-fit">
+        
+      </div>
+  
+      <div class="flex flex-col py-4 pl-6 place-items-start">
+        <p class="font-[Montserrat] text-gray-400 text-sm">P E R F U M E</p>
+        <h1 class="font-[Fraunces] text-3xl leading-tight mt-3">Gabrielle Essence <br> Eau De Parfum</h1>
+        <p class="font-[Montserrat] text-gray-400 text-sm leading-5 mt-2">A floral, solar and voluptuous <br> interpretation composed by Olivier <br> Polge, 
+          Perfumer-Creator for the House of <br> CHANEL.</p>
+        
+        <div class="flex flex-row mt-4 gap-x-4">
+          <h1 class="font-[Fraunces] text-green-700 text-3xl">$149.99</h1>
+          <p class="font-[Montserrat] text-sm text-gray-400 mt-[7px] line-through">$169.99</p>
+        </div>
+  
+        <button class="font-[Montserrat] text-white bg-green-700 rounded-xl flex w-full p-4 justify-center mt-4"><i class="fa-solid fa-cart-shopping mt-[5px]"></i>&nbsp;&nbsp;Add to Cart</button>
+  
+      </div>
+    </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Wyatt Haak</a>.
+  </div>
+</body>
+</html>
