@@ -1,4 +1,4 @@
-# Project Title
+# Frontend Mentor - Product preview card component
 
 
 
